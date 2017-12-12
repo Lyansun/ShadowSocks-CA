@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD8D4DD1FDFAAFA00AFAA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8D4DC1FDFAAFA00AFAA58 /* AppDelegate.swift */; };
+		9BD8D4DF1FDFAAFA00AFAA58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8D4DE1FDFAAFA00AFAA58 /* ViewController.swift */; };
+		9BD8D4E21FDFAAFA00AFAA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8D4E01FDFAAFA00AFAA58 /* Main.storyboard */; };
+		9BD8D4E41FDFAAFA00AFAA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8D4E31FDFAAFA00AFAA58 /* Assets.xcassets */; };
+		9BD8D4E71FDFAAFA00AFAA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8D4E51FDFAAFA00AFAA58 /* LaunchScreen.storyboard */; };
+		9BD8D4F21FDFAAFB00AFAA58 /* ShadowSocks_CATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8D4F11FDFAAFB00AFAA58 /* ShadowSocks_CATests.swift */; };
+		9BD8D4FD1FDFAAFB00AFAA58 /* ShadowSocks_CAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8D4FC1FDFAAFB00AFAA58 /* ShadowSocks_CAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD8D4EE1FDFAAFB00AFAA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD8D4D11FDFAAFA00AFAA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD8D4D81FDFAAFA00AFAA58;
+			remoteInfo = "ShadowSocks-CA";
+		};
+		9BD8D4F91FDFAAFB00AFAA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD8D4D11FDFAAFA00AFAA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD8D4D81FDFAAFA00AFAA58;
+			remoteInfo = "ShadowSocks-CA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD8D4D91FDFAAFA00AFAA58 /* ShadowSocks-CA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShadowSocks-CA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD8D4DC1FDFAAFA00AFAA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BD8D4DE1FDFAAFA00AFAA58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BD8D4E11FDFAAFA00AFAA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD8D4E31FDFAAFA00AFAA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD8D4E61FDFAAFA00AFAA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD8D4E81FDFAAFA00AFAA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD8D4ED1FDFAAFB00AFAA58 /* ShadowSocks-CATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShadowSocks-CATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD8D4F11FDFAAFB00AFAA58 /* ShadowSocks_CATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowSocks_CATests.swift; sourceTree = "<group>"; };
+		9BD8D4F31FDFAAFB00AFAA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD8D4F81FDFAAFB00AFAA58 /* ShadowSocks-CAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShadowSocks-CAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD8D4FC1FDFAAFB00AFAA58 /* ShadowSocks_CAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowSocks_CAUITests.swift; sourceTree = "<group>"; };
+		9BD8D4FE1FDFAAFB00AFAA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD8D4D61FDFAAFA00AFAA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD8D4EA1FDFAAFB00AFAA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD8D4F51FDFAAFB00AFAA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD8D4D01FDFAAFA00AFAA58 = {
+			isa = PBXGroup;
+			children = (
+				9BD8D4DB1FDFAAFA00AFAA58 /* ShadowSocks-CA */,
+				9BD8D4F01FDFAAFB00AFAA58 /* ShadowSocks-CATests */,
+				9BD8D4FB1FDFAAFB00AFAA58 /* ShadowSocks-CAUITests */,
+				9BD8D4DA1FDFAAFA00AFAA58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD8D4DA1FDFAAFA00AFAA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8D4D91FDFAAFA00AFAA58 /* ShadowSocks-CA.app */,
+				9BD8D4ED1FDFAAFB00AFAA58 /* ShadowSocks-CATests.xctest */,
+				9BD8D4F81FDFAAFB00AFAA58 /* ShadowSocks-CAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD8D4DB1FDFAAFA00AFAA58 /* ShadowSocks-CA */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8D4DC1FDFAAFA00AFAA58 /* AppDelegate.swift */,
+				9BD8D4DE1FDFAAFA00AFAA58 /* ViewController.swift */,
+				9BD8D4E01FDFAAFA00AFAA58 /* Main.storyboard */,
+				9BD8D4E31FDFAAFA00AFAA58 /* Assets.xcassets */,
+				9BD8D4E51FDFAAFA00AFAA58 /* LaunchScreen.storyboard */,
+				9BD8D4E81FDFAAFA00AFAA58 /* Info.plist */,
+			);
+			path = "ShadowSocks-CA";
+			sourceTree = "<group>";
+		};
+		9BD8D4F01FDFAAFB00AFAA58 /* ShadowSocks-CATests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8D4F11FDFAAFB00AFAA58 /* ShadowSocks_CATests.swift */,
+				9BD8D4F31FDFAAFB00AFAA58 /* Info.plist */,
+			);
+			path = "ShadowSocks-CATests";
+			sourceTree = "<group>";
+		};
+		9BD8D4FB1FDFAAFB00AFAA58 /* ShadowSocks-CAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD8D4FC1FDFAAFB00AFAA58 /* ShadowSocks_CAUITests.swift */,
+				9BD8D4FE1FDFAAFB00AFAA58 /* Info.plist */,
+			);
+			path = "ShadowSocks-CAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD8D4D81FDFAAFA00AFAA58 /* ShadowSocks-CA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD8D5011FDFAAFB00AFAA58 /* Build configuration list for PBXNativeTarget "ShadowSocks-CA" */;
+			buildPhases = (
+				9BD8D4D51FDFAAFA00AFAA58 /* Sources */,
+				9BD8D4D61FDFAAFA00AFAA58 /* Frameworks */,
+				9BD8D4D71FDFAAFA00AFAA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShadowSocks-CA";
+			productName = "ShadowSocks-CA";
+			productReference = 9BD8D4D91FDFAAFA00AFAA58 /* ShadowSocks-CA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD8D4EC1FDFAAFB00AFAA58 /* ShadowSocks-CATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD8D5041FDFAAFB00AFAA58 /* Build configuration list for PBXNativeTarget "ShadowSocks-CATests" */;
+			buildPhases = (
+				9BD8D4E91FDFAAFB00AFAA58 /* Sources */,
+				9BD8D4EA1FDFAAFB00AFAA58 /* Frameworks */,
+				9BD8D4EB1FDFAAFB00AFAA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD8D4EF1FDFAAFB00AFAA58 /* PBXTargetDependency */,
+			);
+			name = "ShadowSocks-CATests";
+			productName = "ShadowSocks-CATests";
+			productReference = 9BD8D4ED1FDFAAFB00AFAA58 /* ShadowSocks-CATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BD8D4F71FDFAAFB00AFAA58 /* ShadowSocks-CAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD8D5071FDFAAFB00AFAA58 /* Build configuration list for PBXNativeTarget "ShadowSocks-CAUITests" */;
+			buildPhases = (
+				9BD8D4F41FDFAAFB00AFAA58 /* Sources */,
+				9BD8D4F51FDFAAFB00AFAA58 /* Frameworks */,
+				9BD8D4F61FDFAAFB00AFAA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD8D4FA1FDFAAFB00AFAA58 /* PBXTargetDependency */,
+			);
+			name = "ShadowSocks-CAUITests";
+			productName = "ShadowSocks-CAUITests";
+			productReference = 9BD8D4F81FDFAAFB00AFAA58 /* ShadowSocks-CAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD8D4D11FDFAAFA00AFAA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cloudAtlas;
+				TargetAttributes = {
+					9BD8D4D81FDFAAFA00AFAA58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9BD8D4EC1FDFAAFB00AFAA58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BD8D4D81FDFAAFA00AFAA58;
+					};
+					9BD8D4F71FDFAAFB00AFAA58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BD8D4D81FDFAAFA00AFAA58;
+					};
+				};
+			};
+			buildConfigurationList = 9BD8D4D41FDFAAFA00AFAA58 /* Build configuration list for PBXProject "ShadowSocks-CA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD8D4D01FDFAAFA00AFAA58;
+			productRefGroup = 9BD8D4DA1FDFAAFA00AFAA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD8D4D81FDFAAFA00AFAA58 /* ShadowSocks-CA */,
+				9BD8D4EC1FDFAAFB00AFAA58 /* ShadowSocks-CATests */,
+				9BD8D4F71FDFAAFB00AFAA58 /* ShadowSocks-CAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD8D4D71FDFAAFA00AFAA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD8D4E71FDFAAFA00AFAA58 /* LaunchScreen.storyboard in Resources */,
+				9BD8D4E41FDFAAFA00AFAA58 /* Assets.xcassets in Resources */,
+				9BD8D4E21FDFAAFA00AFAA58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD8D4EB1FDFAAFB00AFAA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD8D4F61FDFAAFB00AFAA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD8D4D51FDFAAFA00AFAA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD8D4DF1FDFAAFA00AFAA58 /* ViewController.swift in Sources */,
+				9BD8D4DD1FDFAAFA00AFAA58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD8D4E91FDFAAFB00AFAA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD8D4F21FDFAAFB00AFAA58 /* ShadowSocks_CATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD8D4F41FDFAAFB00AFAA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD8D4FD1FDFAAFB00AFAA58 /* ShadowSocks_CAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD8D4EF1FDFAAFB00AFAA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD8D4D81FDFAAFA00AFAA58 /* ShadowSocks-CA */;
+			targetProxy = 9BD8D4EE1FDFAAFB00AFAA58 /* PBXContainerItemProxy */;
+		};
+		9BD8D4FA1FDFAAFB00AFAA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD8D4D81FDFAAFA00AFAA58 /* ShadowSocks-CA */;
+			targetProxy = 9BD8D4F91FDFAAFB00AFAA58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD8D4E01FDFAAFA00AFAA58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD8D4E11FDFAAFA00AFAA58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD8D4E51FDFAAFA00AFAA58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD8D4E61FDFAAFA00AFAA58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD8D4FF1FDFAAFB00AFAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BD8D5001FDFAAFB00AFAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD8D5021FDFAAFB00AFAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShadowSocks-CA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudAtlas.ShadowSocks-CA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BD8D5031FDFAAFB00AFAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShadowSocks-CA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudAtlas.ShadowSocks-CA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BD8D5051FDFAAFB00AFAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShadowSocks-CATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudAtlas.ShadowSocks-CATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowSocks-CA.app/ShadowSocks-CA";
+			};
+			name = Debug;
+		};
+		9BD8D5061FDFAAFB00AFAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShadowSocks-CATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudAtlas.ShadowSocks-CATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowSocks-CA.app/ShadowSocks-CA";
+			};
+			name = Release;
+		};
+		9BD8D5081FDFAAFB00AFAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShadowSocks-CAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudAtlas.ShadowSocks-CAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShadowSocks-CA";
+			};
+			name = Debug;
+		};
+		9BD8D5091FDFAAFB00AFAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ShadowSocks-CAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudAtlas.ShadowSocks-CAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShadowSocks-CA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD8D4D41FDFAAFA00AFAA58 /* Build configuration list for PBXProject "ShadowSocks-CA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD8D4FF1FDFAAFB00AFAA58 /* Debug */,
+				9BD8D5001FDFAAFB00AFAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD8D5011FDFAAFB00AFAA58 /* Build configuration list for PBXNativeTarget "ShadowSocks-CA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD8D5021FDFAAFB00AFAA58 /* Debug */,
+				9BD8D5031FDFAAFB00AFAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD8D5041FDFAAFB00AFAA58 /* Build configuration list for PBXNativeTarget "ShadowSocks-CATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD8D5051FDFAAFB00AFAA58 /* Debug */,
+				9BD8D5061FDFAAFB00AFAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD8D5071FDFAAFB00AFAA58 /* Build configuration list for PBXNativeTarget "ShadowSocks-CAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD8D5081FDFAAFB00AFAA58 /* Debug */,
+				9BD8D5091FDFAAFB00AFAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD8D4D11FDFAAFA00AFAA58 /* Project object */;
+}
